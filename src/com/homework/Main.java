@@ -8,7 +8,7 @@ public class Main {
 
         String str = "helloworld";
         String output = "";
-        for (; ;) {
+        while (true) {
             for (int i = 0; i < str.length(); i++) {
                 output = str.substring(0, i) + str.substring(i, i + 1).toUpperCase() + str.substring(i + 1);
                 System.out.println(output);
